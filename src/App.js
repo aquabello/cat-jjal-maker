@@ -89,7 +89,7 @@ const App = () => {
   const titleCounter = counter === null ? "" : counter + "번째";
   return (
     <div>
-      <Title>{titleCounter} 고양이 가라사대 Env</Title>
+      <Title>{titleCounter} 고양이 가라사대</Title>
       <Form updateMainCat={updateMainCat} />
       <MainCard
         img={mainCat}
